@@ -19,9 +19,8 @@ function getProducts(products){
     products.forEach(product => {
         const div = document.createElement('div');
         div.classList.add('col');
-        div.classList.add('m-2');
         div.innerHTML = `
-        <div class="card">
+        <div class="card m-2">
           <img src=${product.thumbnail} class="card-img-top" alt="${product.name}">
           <div class="card-body">
             <h5 class="card-title">${product.title}</h5>
