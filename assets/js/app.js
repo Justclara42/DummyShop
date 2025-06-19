@@ -31,7 +31,7 @@ function getProducts(products){
             ${product.tags.map(tag =>
             ` <span class="badge text-bg-secondary">${tag}</span> `
         ).join('')}
-            <a href="http://localhost:63342/DummyAPI/product.html?id=${product.id}"  class="btn btn-primary">Voir le Produit</a>
+            <a href="product.html?id=${product.id}"  class="btn btn-primary">Voir le Produit</a>
           </div>
         </div>
         `;
