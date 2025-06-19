@@ -27,8 +27,8 @@ async function productItem(id){
                 <p class="lead">Note de ${item.rating}/5</p>
                 <p>${item.description}</p>
                 <p class="lead">Notre prix: ${item.price} €</p>
-                <span class="badge text-bg-success">Vous economisez ${item.discountPercentage} %</span>
-
+                <span class="badge text-bg-success m-2">Vous economisez ${item.discountPercentage} %</span><br />
+                <a href="#" class="btn btn-primary m-2">Ajouter au panier</a>
             </div>
             <div class="bg-dark box-shadow rounded mx-auto text-white">
                 ${item.images.map(image =>
